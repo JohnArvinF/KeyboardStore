@@ -4,9 +4,11 @@
     letter-spacing: 0.15em;
     background-color: #464a66;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    
 
 }
+
 
 #page {
     max-width: 940px;
@@ -28,22 +30,29 @@
 }
 
 #Logo p {
-    margin-left: 10px; 
+    margin-left: 15px; 
     align-self: center;
-    font-size: 17px;
-     
+    font-size: 28px;
+    position: absolute;
+    top: 18%;
+    left: 820px;
 }
 
 
 
 ul {
-    width: 570px;
-    padding: 15px;
+    width: 600px;
+    padding: 20px;
     margin: 0px auto 0px auto;
     border: 2px solid #000;
     border-bottom: 1px solid #000;
     text-align: center;
 }
+
+ul li {
+    padding:  8px; 
+}
+
 
 li {
     display: inline;
@@ -53,21 +62,19 @@ li {
 
 p {
     font-size: 16px;
-    margin: 15px;
+    margin-top: 10px;
     font-weight: normal;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-
-
 p img {
     max-width: 300px;
     height: 200px;
     margin-right: 10px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     transition: transform 0.1s;
     border: 2px solid #030303; 
 }
