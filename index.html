@@ -1,34 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Boxes</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyboardStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <div id="page">
-        <div id="Logo">
-            <img src="logo_transparent.png" alt="Logo" />
-            <p>"The Analog Specialists" </p>
+    <header>
+        <div class="container header-flex">
+            <img src="logo_transparent.png" alt="KeyboardStore Logo" class="logo">
+            <h1>KeyboardStore</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
         </div>
-        
-        <ul id="navigation">
-            <li><a href="#" class="on">Home</a></li>
-            <li><a href="#">For Sale</a></li>
-            <li><a href="#">Repairs</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        
-        <p>
-            <img src="images.jpg" alt="Fender Rhodes, Hohner Clavinet, and Wurlitzer EP200" />   
-            <img src="images (1).jpg" alt="Fender Rhodes, Hohner Clavinet, and Wurlitzer EP200" />
-            <img src="22.jpg" alt="Fender Rhodes, Hohner Clavinet, and Wurlitzer EP200" />
-        </p>
-        <p>
-            We specialize in the sale and repair of classic keyboards, in paricular the Fender Rhodes, Wurlitzer EP200, and Hohner Clavinet.
-        </p>
-    </div>
-    
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Discover Your Perfect Keyboard</h2>
+                <p>High-performance. Stylish. Built for you.</p>
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="container">
+                <h3>Featured Keyboards</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="22.jpg" alt="Keyboard 1">
+                        <h4>Mechanical Pro X</h4>
+                        <p>RGB backlit, hot-swappable, tactile switches.</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images (1).jpg" alt="Keyboard 2">
+                        <h4>Ultra Slim Wireless</h4>
+                        <p>Low profile, long battery life, wireless freedom.</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images.jpg" alt="Keyboard 3">
+                        <h4>Classic Compact</h4>
+                        <p>Minimalist design, durable build, quiet keys.</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 KeyboardStore. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
